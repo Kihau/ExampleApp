@@ -59,3 +59,21 @@ sdk.dir=C:/Users/Example/AndroidSDK
 ```
 ./gradlew.bat buildDebug
 ```
+
+## Extras
+Quick license generate script (hack)
+
+If you don't want to bother with downloading either android studio or command line tools; you can use the
+quick license generation script.
+
+Simply run the following command with the path to SDK root:
+
+Windows:
+```sh
+.\extras\create_license.bat C:/Users/Example/AndroidSDK
+```
+
+Linux:
+```sh
+TODO
+```
