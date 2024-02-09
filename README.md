@@ -58,7 +58,7 @@ sdk.dir=C:/Users/Example/AndroidSDK
 ```
 - Windows command line:
 ```
-./gradlew.bat buildDebug
+.\gradlew.bat buildDebug
 ```
 
 ## Extras

@@ -12,13 +12,13 @@ class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val binding = MainActivityBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        val binding = MainActivityBinding.inflate(this.layoutInflater)
+        this.setContentView(binding.root)
         val button = binding.mybutton
 
         // ALTERNATIVE: No automatic binding generation.
-        // setContentView(R.layout.main_activity)
-        // val button = findViewById<Button>(R.id.mybutton);
+        // this.setContentView(R.layout.main_activity)
+        // val button = this.findViewById<Button>(R.id.mybutton)
 
         button.setOnClickListener { 
             button.text = "You clicked $click_counter times!"
