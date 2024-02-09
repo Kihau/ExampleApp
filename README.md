@@ -26,15 +26,16 @@ Creating valid licenses using `sdkmanager`:
 - Download and extract `commandline-tools.zip`
 - Navigate to `./commandline-tools/bin` directory.
 - Run the following command:
-    Linux:
-    ```sh
-        ./sdkmanager --sdk_root=C:/Users/Examaple/AndroidSDK --licenses"
 
-    ```
-    Windows:
-    ```cmd
-        .\sdkmanager.bat --sdk_root=C:/Users/Examaple/AndroidSDK --licenses"
-    ```
+Linux:
+```sh
+    ./sdkmanager --sdk_root=C:/Users/Examaple/AndroidSDK --licenses"
+
+```
+Windows:
+```cmd
+    .\sdkmanager.bat --sdk_root=C:/Users/Examaple/AndroidSDK --licenses"
+```
     
 
 ## Command line project setup (without android studio)
