@@ -1,11 +1,12 @@
 # Android Example App
-VERY basic android project template 
+VERY basic android project template.
 
 ## About
 The idea behind this template is to:
-  - strip out unnecessary files 
-  - get rid of unnecessary settings
-  - simplify directory structure
+  - Strip out unnecessary files.
+  - Get rid of unnecessary settings.
+  - Simplify directory structure.
+  - Simplify build process.
 
 
 ## Requirements
@@ -14,7 +15,7 @@ The idea behind this template is to:
     You can download either Android Studio or stand-alone command line tools (at the bottom of the page)
     
 
-- Java 17: [java-download](https://www.java.com/en/download/)
+- Java 17: [java-download](https://www.oracle.com/java/technologies/downloads/)
 
 
 ## Command line Android SDK setup (without android studio)
@@ -29,12 +30,12 @@ Creating valid licenses using `sdkmanager`:
 
 Linux:
 ```sh
-./sdkmanager --sdk_root=C:/Users/Examaple/AndroidSDK --licenses"
+./sdkmanager --sdk_root=/home/example/AndroidSDK --licenses
 
 ```
 Windows:
 ```cmd
-.\sdkmanager.bat --sdk_root=C:/Users/Examaple/AndroidSDK --licenses"
+.\sdkmanager.bat --sdk_root=C:/Users/Example/AndroidSDK --licenses
 ```
     
 
