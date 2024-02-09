@@ -15,7 +15,7 @@ The idea behind this template is to:
     You can download either Android Studio or stand-alone command line tools (at the bottom of the page)
     
 
-- Java 17: [java-download](https://www.java.com/en/download/)
+- Java 17: [java-download](https://www.oracle.com/java/technologies/downloads/)
 
 
 ## Command line Android SDK setup (without android studio)
@@ -30,12 +30,12 @@ Creating valid licenses using `sdkmanager`:
 
 Linux:
 ```sh
-./sdkmanager --sdk_root=C:/Users/Example/AndroidSDK --licenses
+./sdkmanager --sdk_root=/home/example/AndroidSDK --licenses
 
 ```
 Windows:
 ```cmd
-.\sdkmanager.bat --sdk_root=/home/example/AndroidSDK --licenses
+.\sdkmanager.bat --sdk_root=C:/Users/Example/AndroidSDK --licenses
 ```
     
 
