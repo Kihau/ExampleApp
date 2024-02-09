@@ -29,12 +29,12 @@ Creating valid licenses using `sdkmanager`:
 
 Linux:
 ```sh
-    ./sdkmanager --sdk_root=C:/Users/Examaple/AndroidSDK --licenses"
+./sdkmanager --sdk_root=C:/Users/Examaple/AndroidSDK --licenses"
 
 ```
 Windows:
 ```cmd
-    .\sdkmanager.bat --sdk_root=C:/Users/Examaple/AndroidSDK --licenses"
+.\sdkmanager.bat --sdk_root=C:/Users/Examaple/AndroidSDK --licenses"
 ```
     
 
