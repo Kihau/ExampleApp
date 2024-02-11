@@ -76,5 +76,5 @@ Windows:
 
 Linux:
 ```sh
-TODO
+./extras/create_license.sh home/example/AndroidSDK
 ```
